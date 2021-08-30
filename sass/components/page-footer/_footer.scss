@@ -1,0 +1,96 @@
+.footer {
+  background-color: $background-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.sociai-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adress {
+  margin-top: 20px;
+  font-style: normal;
+  line-height: 1.71;
+}
+.adress--margin {
+  margin-top: 9px;
+}
+.adress--color {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address--white-text {
+  color: $primary-color;
+}
+
+.footer__social {
+  margin-left: 70px;
+}
+
+.social-footer__subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: $primary-color;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.social__list {
+  display: flex;
+}
+
+.social__link--background {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social__icon--fill {
+  fill: $primary-color;
+}
+
+.email-footer {
+  margin-left: 93px;
+}
+.email-footer__form {
+  margin-top: 20px;
+}
+.main-btn__footer {
+  @extend .main-btn;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-footer__subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: $primary-color;
+  text-transform: uppercase;
+}
+.email-footer__input {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 15px 0 15px 16px;
+  min-width: 358px;
+  background: $background-color;
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 12px;
+}
+
+.email-footer__field {
+  margin: 0;
+}
+
+.mail-footer__icon {
+  fill: $primary-color;
+  margin-left: 10px;
+}

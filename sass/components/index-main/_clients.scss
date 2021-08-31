@@ -2,6 +2,21 @@
   // display: flex;
   // align-items: center;
   // justify-content: space-between;
+  @media screen and (max-width: 479px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
+.client__item {
+  // padding-top: 30px;
+  // padding-bottom: 30px;
+
+  @media screen and (max-width: 479px) {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
 }
 .client__link {
   display: flex;

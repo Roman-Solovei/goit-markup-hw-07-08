@@ -6,8 +6,6 @@
 // }
 
 // .header__container {
-//   // @extend .container;
-
 //   display: flex;
 //   justify-content: space-between;
 //   align-items: center;
@@ -19,19 +17,15 @@
 }
 
 .section--padding {
-  // @extend .section;
-
   padding-top: 0;
 }
 
 .section--background {
-  // @extend .section;
-
   background-color: $secondary-color;
 }
 
 // .container--baseline {
-//   // @extend .container;
+//
 
 //   display: flex;
 //   align-items: baseline;
@@ -41,5 +35,5 @@
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }

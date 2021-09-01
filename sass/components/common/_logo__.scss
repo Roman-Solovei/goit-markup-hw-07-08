@@ -5,10 +5,9 @@
   line-height: 1.19;
   color: $accent-color;
 
-  @media screen and (max-width: 479px) {
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
+  // @media screen and (max-width: 479px) {
+  //   width: 480px;
+  // }
 }
 
 .logo__studio {

@@ -1,6 +1,12 @@
 .header {
   position: relative;
   border-bottom: 1px solid $header-border-color;
+  // padding-top: 16px;
+  // padding-bottom: 16px;
+  @media screen and (max-width: 479px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 
 .header__container {

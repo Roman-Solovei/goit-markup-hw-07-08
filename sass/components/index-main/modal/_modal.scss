@@ -15,8 +15,8 @@
 }
 
 .modal {
-  width: 530px;
-  height: 580px;
+  max-width: 450px;
+  min-height: 580px;
   background-color: $primary-color;
   border-radius: 4px;
   padding: 40px;

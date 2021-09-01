@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="./sass/base/_modern-normalize.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Raleway:wght@700&display=swap"
-        rel="stylesheet">
-    <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/main.min.css">
+        rel="stylesheet">    
+    <link rel="stylesheet" href="./css/main.min.css">    
 </head>
 
 <body>
@@ -53,19 +54,14 @@
                             </li>
                         </ul> 
                         
-                        <ul class="social">
-                           <li class="social__item"><a class="social__link" href="#">Instagram</a></li>
-                            <li class="social__item"><a class="social__link" href="#">Twitter</a></li>
-                            <li class="social__item"><a class="social__link" href="#">Facebook</a></li>
-                            <li class="social__item"><a class="social__link" href="#">LinkedIn</a></li>
-                        </ul>
-
-                        
-                    </div>
-
-                    
-                </nav>
-                   
+                        <ul class="social-header">
+                           <li class="social-header__item"><a class="social-header__link" href="#">Instagram</a></li>
+                            <li class="social-header__item"><a class="social-header__link" href="#">Twitter</a></li>
+                            <li class="social-header__item"><a class="social-header__link" href="#">Facebook</a></li>
+                            <li class="social-header__item"><a class="social-header__link" href="#">LinkedIn</a></li>
+                        </ul>                        
+                    </div>                    
+                </nav>                   
             </div>         
     </header>
 
@@ -430,17 +426,17 @@
     
     <footer class="footer">
         <div class="container container--baseline">
-            <div>    
+            <!-- <div>     -->
             <a class="logo" href="#" lang="en" >Web<span class="logo__studio-white">Studio</span>
             </a>
             <address class="adress">
-                <ul>
+                <ul class="adress__list">
                     <li><span class="address--white-text">г. Киев, пр-т Леси Украинки, 26</span></li>
                     <li class="adress--margin"><a class="adress--color" href="mailto:info@example.com" >info@example.com</a></li>
                     <li class="adress--margin"><a class="adress--color" href="tel:+380991111111" >+38 099 111 11 11</a></li>
                 </ul>  
             </address>  
-            </div>
+            <!-- </div> -->
             
             <div class="footer__social">
                 <h2 class="social-footer__subtitle">Присоеденяйтесь</h2>
@@ -490,7 +486,7 @@
                         <label class="email-footer__field">
                             <input class="email-footer__input" type="email" name ="footer-form" placeholder=" E-mail" />
                         </label>                                        
-                    <button type="submit" class="main-btn__footer">
+                    <button type="submit" class="main-btn__footer" style="margin-left: auto;">
                         Подписаться
                         <svg class="mail-footer__icon" width="24" height="24">
                             <use href="./images/icons.svg#icon-send"></use>

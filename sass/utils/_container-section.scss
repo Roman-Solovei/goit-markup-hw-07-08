@@ -6,8 +6,6 @@
 // }
 
 // .header__container {
-//   // @extend .container;
-
 //   display: flex;
 //   justify-content: space-between;
 //   align-items: center;
@@ -19,27 +17,27 @@
 }
 
 .section--padding {
-  // @extend .section;
-
   padding-top: 0;
 }
 
 .section--background {
-  // @extend .section;
-
   background-color: $secondary-color;
 }
 
-// .container--baseline {
-//   // @extend .container;
-
-//   display: flex;
-//   align-items: baseline;
-// }
+.container--baseline {
+  // @media screen and (max-width: 479px) {
+  //   width: 480px;
+  // }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .section__title {
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }

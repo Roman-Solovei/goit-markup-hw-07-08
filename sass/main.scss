@@ -1,10 +1,12 @@
 @import './utils/variables';
 @import './utils/container__';
+@import './components/container__';
 @import './utils/container-section';
 @import './base/modern-normalize';
 @import './components/page-header/page-header__';
 @import './components/common/logo__';
 @import './components/index-main/menu-container__';
+@import './components/index-main/menu-btn__';
 @import './components/index-main/hero';
 @import './components/common/main-btn';
 @import './components/index-main/modal/modal';

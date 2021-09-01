@@ -16,17 +16,28 @@
   }
 }
 
-.client__item {
-  // margin-right: 30px;
-  // margin-bottom: 30px;
+// .client__item {
 
-  // &:nth-child(2n) {
-  //   margin-right: 0;
-  // }
+// margin-right: 30px;
+// margin-bottom: 30px;
+
+// &:nth-child(2n) {
+//   margin-right: 0;
+// }
+
+@media screen and (max-width: 479px) {
+  width: calc((100% - 4 * 15px) / 2);
+  margin: 15px;
+
+  margin-right: 30px;
+  margin-bottom: 30px;
+
+  &:nth-child(2n) {
+    margin-right: 0;
+  }
 
   @media screen and (max-width: 479px) {
     width: calc((100% - 4 * 15px) / 2);
-    margin: 15px;
   }
 }
 .client__link {

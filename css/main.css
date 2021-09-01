@@ -148,7 +148,12 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: ui-monospace,
+ SFMono-Regular,
+ Consolas,
+ 'Liberation Mono',
+ Menlo,
+ monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -325,6 +330,19 @@ summary {
   position: relative;
   border-bottom: 1px solid #ececec;
 }
+
+@media screen and (max-width: 479px) {
+  .header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+.header__container {
+  margin-right: 0;
+  margin-right: 0;
+}
+
 
 .main-nav {
   display: -webkit-box;
@@ -1003,11 +1021,22 @@ summary {
   }
 }
 
+
 @media screen and (max-width: 479px) {
   .client__item {
     width: calc((100% - 4 * 15px) / 2);
     margin: 15px;
-  }
+
+
+}
+
+.client__item:nth-child(2n) {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 479px) {
+  .client__item {
+    width: calc((100% - 4 * 15px) / 2);
 }
 
 .client__link {
@@ -1343,4 +1372,3 @@ a {
   padding: 0;
   list-style: none;
 }
-/*# sourceMappingURL=main.css.map */

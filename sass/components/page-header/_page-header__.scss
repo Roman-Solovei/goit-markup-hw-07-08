@@ -7,15 +7,15 @@
   }
 }
 
-.header__container {
-  // @extend .container;
+// .header__container {
+//   // @extend .container;
 
-  // display: flex;
-  // justify-content: space-between;
-  // align-items: center;
-  // margin-right: 0;
-  // margin-right: 0;
-}
+//   // display: flex;
+//   // justify-content: space-between;
+//   // align-items: center;
+//   // margin-right: 0;
+//   // margin-right: 0;
+// }
 
 .main-nav {
   display: flex;
@@ -135,8 +135,6 @@
   }
 }
 
-.contacts__item {
-}
 .contacts__item:not(:first-child) {
   padding-bottom: 32px;
 }

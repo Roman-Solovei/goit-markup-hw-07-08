@@ -969,7 +969,7 @@ summary {
   background: rgba(47, 48, 58, 0.8);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .team {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1371,6 +1371,14 @@ summary {
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .filter {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .filter__item {
   margin-bottom: 15px;
 }
@@ -1383,6 +1391,26 @@ summary {
   margin-left: 0;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .filter__item {
+    margin-bottom: 0;
+  }
+  .filter__item:nth-child(4) {
+    margin-left: 8px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 -15px 0 -15px;
+  }
+}
+
 .gallery__item {
   position: relative;
   background-color: #ffffff;
@@ -1391,6 +1419,13 @@ summary {
 
 .gallery__item:not(:last-child) {
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .gallery__item {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 0 15px 15px 15px;
+  }
 }
 
 .card {

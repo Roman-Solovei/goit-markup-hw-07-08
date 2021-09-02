@@ -3,6 +3,24 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.footer__adress-box {
+  display: inline-flex;
+  flex-direction: column;
+
+}
+.footer__adress-social {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.footer__social {
+  display: inline-flex;
+  flex-direction: column;
+  // margin-left: auto;
+}
+
+
 .sociai-item {
   display: flex;
   justify-content: center;
@@ -38,10 +56,13 @@
   color: $primary-color;
   text-transform: uppercase;
   margin-bottom: 20px;
+  text-align: center;
+   margin-top: 60px;
 
-  @media screen and (max-width: 479px) {
-    text-align: center;
-    margin-top: 60px;
+
+  @media screen and (min-width: 768px) and (max-width:1199px) {
+    margin-top: 0;
+    // margin-top: 0;
   }
 }
 
@@ -59,13 +80,29 @@
 
 .email-footer {
   margin-top: 60px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) and (max-width:1199px) {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
 
   // margin-left: 93px;
 }
 .email-footer__form {
   margin-top: 20px;
-  // margin-bottom: 20px;
-  padding: 0 auto;
+
+  @media screen and (min-width: 768px) and (max-width:1199px) {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  }
+
+.main-btn__footer--center {
+  display: flex;
+  justify-content: center;
 }
 .main-btn__footer {
   @extend .main-btn;
@@ -100,6 +137,10 @@
   min-width: 100%;
   background: $background-color;
   color: rgba(255, 255, 255, 0.6);
+
+  @media screen and (min-width: 768px) and (max-width:1199px) {
+   min-width: 450px;
+  }
   // margin-right: 12px;
 }
 

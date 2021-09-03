@@ -591,8 +591,24 @@ summary {
   }
 }
 
+.contacts__item:first-child {
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts__item:first-child:first-child {
+    padding-bottom: 0;
+  }
+}
+
 .contacts__item:not(:first-child) {
   padding-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contacts__item:not(:first-child):not(:first-child) {
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1081,6 +1097,12 @@ summary {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media screen and (min-width: 1200px) {
+  .works:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .works__item {

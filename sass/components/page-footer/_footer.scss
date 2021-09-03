@@ -60,8 +60,9 @@
    margin-top: 60px;
 
 
-  @media screen and (min-width: 480px) and (max-width:767px) {
+  @media screen and (min-width: 768px) and (max-width:1199px) {
     margin-top: 0;
+    // margin-top: 0;
   }
 }
 
@@ -79,8 +80,9 @@
 
 .email-footer {
   margin-top: 60px;
+  width: 100%;
 
-  @media screen and (min-width: 480px) and (max-width:767px) {
+  @media screen and (min-width: 768px) and (max-width:1199px) {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -90,9 +92,18 @@
 }
 .email-footer__form {
   margin-top: 20px;
+
+  @media screen and (min-width: 768px) and (max-width:1199px) {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
   }
 
-
+.main-btn__footer--center {
+  display: flex;
+  justify-content: center;
+}
 .main-btn__footer {
   @extend .main-btn;
 
@@ -126,6 +137,10 @@
   min-width: 100%;
   background: $background-color;
   color: rgba(255, 255, 255, 0.6);
+
+  @media screen and (min-width: 768px) and (max-width:1199px) {
+   min-width: 450px;
+  }
   // margin-right: 12px;
 }
 

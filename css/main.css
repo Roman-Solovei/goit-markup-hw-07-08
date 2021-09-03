@@ -1312,6 +1312,9 @@ summary {
 }
 
 @media screen and (min-width: 1200px) {
+  .client__item {
+    width: calc(100% - 12 * 15px);
+  }
   .client__item:not(:last-child) {
     margin-right: 30px;
   }
@@ -1337,12 +1340,6 @@ summary {
 
 .client__link:hover, .client__link:focus {
   border-color: #2196f3;
-}
-
-@media screen and (min-width: 1200px) {
-  .client__link {
-    padding: 14px 30px;
-  }
 }
 
 .client__icon {

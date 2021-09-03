@@ -46,18 +46,13 @@
     }
   }
 
-  @media screen and (min-width: 768px) {
-    // display: none;
-    display: flex;
-    // justify-content: space-between;
+  @media screen and (min-width: 768px) {   
+    display: flex; 
     flex-grow: 1;
-    padding: 0;
-    // padding: 0;
-    // margin-left: ;
+    padding: 0;    
   }
 
-  @media screen and (min-width: 1200px) {
-    // margin-right: 215px;
+  @media screen and (min-width: 1200px) {    
     margin-left: auto;
   }
 }

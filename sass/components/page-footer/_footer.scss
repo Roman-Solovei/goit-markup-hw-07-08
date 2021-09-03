@@ -8,6 +8,9 @@
   display: inline-flex;
   flex-direction: column;
 
+  @media screen and (min-width: 1200px) {    
+    margin-right: 70px;    
+  }
 }
 .footer__adress-social {
   display: inline-flex;
@@ -44,10 +47,6 @@
   color: $primary-color;
 }
 
-// .footer__social {
-//   margin-left: 70px;
-// }
-
 .social-footer__subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -62,8 +61,14 @@
 
   @media screen and (min-width: 768px) and (max-width:1199px) {
     margin-top: 0;
-    // margin-top: 0;
+    
   }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;  
+    text-align: start;  
+  }
+
 }
 
 .social__list {
@@ -88,7 +93,11 @@
    align-items: center;
   }
 
-  // margin-left: 93px;
+  @media screen and (min-width: 1200px) {    
+    margin-top: 0; 
+    margin-left: 93px;   
+  }
+  
 }
 .email-footer__form {
   margin-top: 20px;
@@ -98,6 +107,11 @@
    flex-direction: column;
    align-items: center;
   }
+
+  @media screen and (min-width: 1200px) {    
+    display: flex;       
+  }
+
   }
 
 .main-btn__footer--center {
@@ -123,6 +137,11 @@
   text-align: center;
   color: $primary-color;
   text-transform: uppercase;
+
+  @media screen and (min-width: 1200px) {
+   text-align: start; 
+  }
+
 }
 .email-footer__input {
   font-family: Roboto, sans-serif;
@@ -141,11 +160,20 @@
   @media screen and (min-width: 768px) and (max-width:1199px) {
    min-width: 450px;
   }
-  // margin-right: 12px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;   
+  }
+  
 }
 
 .email-footer__field {
   margin: 0;
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 12px;  
+    width: 258px;  
+  }
 }
 
 .mail-footer__icon {

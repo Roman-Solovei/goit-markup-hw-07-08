@@ -30,12 +30,6 @@
    padding-bottom: 200px;
   }
 
-  // @media screen and (max-width: 479px) {
-  //   // background-position: 50% 50%;
-  //   // background-size: 100% 100%;
-  //   // background-size: 480px 400px;
-
-  // }
 }
 
 .hero__title {
@@ -44,6 +38,6 @@
   line-height: 1.36;
   text-transform: uppercase;
   color: $primary-color;
-  letter-spacing: 5px;
+  letter-spacing: 0.06em;
   margin-bottom: 30px;
 }

@@ -1279,7 +1279,6 @@ summary {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: -15px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1290,6 +1289,8 @@ summary {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 }
 
@@ -1340,7 +1341,7 @@ summary {
 
 @media screen and (min-width: 1200px) {
   .client__link {
-    padding: 15px 31px;
+    padding: 14px 30px;
   }
 }
 

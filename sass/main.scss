@@ -1,6 +1,8 @@
+@import "./base/modern-normalize";
+@import "./utils/styles";
+@import "./utils/placeholders";
 @import "./utils/variables";
 @import "./utils/container-section";
-@import "./base/modern-normalize";
 @import "./components/page-header/page-header";
 @import "./components/common/logo";
 @import "./components/index-main/menu-container";
@@ -17,5 +19,4 @@
 @import "./components/portfolio-main/portfolio";
 @import "./components/portfolio-main/portfolio-gallery";
 @import "./components/portfolio-main/portfolio-card";
-@import "./utils/styles";
-@import "./utils/placeholders";
+

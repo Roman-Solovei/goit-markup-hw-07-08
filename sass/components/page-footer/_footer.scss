@@ -8,7 +8,7 @@
   display: inline-flex;
   flex-direction: column;
 
-  @media screen and (min-width: 1200px) {    
+  @media screen and (min-width: 769px) {    
     margin-right: 70px;    
   }
 }
@@ -67,7 +67,7 @@
     margin-top: 0;    
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 769px) {
     margin-top: 0;  
     text-align: start;  
   }
@@ -90,14 +90,14 @@
   width: 100%;
 
   @media screen and (min-width: 481px) 
-  // and (max-width:1199px)
+  and (max-width:768px)
    {
    display: flex;
    flex-direction: column;
    align-items: center;
   }
 
-  @media screen and (min-width: 1200px) {    
+  @media screen and (min-width: 769px) {    
     margin-top: 0; 
     margin-left: 93px;   
   }
@@ -108,14 +108,14 @@
   margin-top: 20px;
 
   @media screen and (min-width: 481px) 
-  // and (max-width:1199px)
+  and (max-width:768px)
    {
    display: flex;
    flex-direction: column;
    align-items: center;
   }
 
-  @media screen and (min-width: 1200px) {    
+  @media screen and (min-width: 769px) {    
     display: flex;       
   }
 
@@ -142,7 +142,7 @@
   color: $primary-color;
   text-transform: uppercase;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 769px) {
    text-align: start; 
   }
 
@@ -162,12 +162,12 @@
   color: rgba(255, 255, 255, 0.6);
 
   @media screen and (min-width: 481px) 
-  // and (max-width:1199px) 
+  and (max-width:768px) 
   {
    min-width: 450px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 769px) {
     margin-bottom: 0;   
   }  
 }
@@ -175,7 +175,7 @@
 .email-footer__field {
   margin: 0;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 769px) {
     margin-right: 12px;  
     width: 258px;  
   }

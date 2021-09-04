@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 769px) {
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -30,7 +30,7 @@
   }
 
 
-  @media screen and (min-width: 1200px) {   
+  @media screen and (min-width: 769px) {   
     width: calc(100% - 12 * 15px); 
     &:not(:last-child) {
       margin-right: 30px;

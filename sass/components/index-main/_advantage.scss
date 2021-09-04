@@ -5,7 +5,7 @@
     margin: 0 -15px 0 -15px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 769px) {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -37,7 +37,7 @@
     }
   }
   
-  @media screen and (min-width: 1200px) {    
+  @media screen and (min-width: 769px) {    
     flex-grow: 1;
     
     &:not(:last-child) {
@@ -75,7 +75,7 @@
 }
 
 .works__desktop {
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 769px) {
     display: none;
   }
 }
@@ -84,7 +84,7 @@
   display: flex;
   justify-content: space-between;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 769px) {
     &:not(:last-child) {    
     margin-right: 30px;
   }
@@ -94,7 +94,7 @@
 .works__item {
   position: relative;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 769px) {
       &:not(:last-child) {   
       margin-right: 30px;
     }

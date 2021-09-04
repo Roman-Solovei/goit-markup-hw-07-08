@@ -1,5 +1,5 @@
 .advantage {
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 481px) {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px 0 -15px;
@@ -26,7 +26,9 @@
     margin-bottom: 30px;
     }
 
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
+    @media screen and (min-width: 481px) 
+    // and (max-width: 1199px) 
+    {
   width: calc((100% - 4 * 15px) / 2);
   margin: 0 15px 15px 15px;  
   
@@ -73,7 +75,7 @@
 }
 
 .works__desktop {
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 1200px) {
     display: none;
   }
 }
